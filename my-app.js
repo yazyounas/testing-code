@@ -3,3 +3,11 @@ function dealer (price) {
 }
 console.log(dealer(10000));
 
+const addTwo = (one, two) => {
+    if(one === two) {
+        return true;
+    } else {
+        return false;
+    }
+};
+console.log(addTwo(1, 2));
