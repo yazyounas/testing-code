@@ -1,6 +1,64 @@
 <html>
   <body>
     <h1> My Website </h1>
+    <!--
+      Test-driven development(TDD);
+      Testing doesn’t necessarily have to occur after code has been written. Test-driven development is a methodology that flips the order, where tests are written before the functioning code is written. By writing tests in this order, test cases can start with the definition of their purpose, or use case.
+
+Those use cases define the specification and documentation on what actions are to be supported by new code. TDD tests look at the components of code, like functions and classes, as the smallest unit to test.
+
+In practice, TDD can accelerate software development since it dictates short development cycles with direct test cases. There are many other benefits of test-driven development:
+
+Developers can better understand the requirements of code, before writing the code.
+Code that will never be executed won’t be added to the codebase.
+The scope of development is reduced.
+Code is written with testability in mind.
+TDD is not the only testing methodology that takes a test-first approach to software development.
+Behavior-driven development(BDD)
+Another testing methodology that uses the strategy of writing test cases 
+before code is behavior-driven development, or BDD. It is extremely similar 
+to TDD in terms of process. Where these two methodologies differ is in why 
+or when tests are written, what an individual unit is considered to be, and
+ how the language of the test is composed.
+
+Since BDD tests are driven by behavior, the language of the test cases are
+ simplified and written via collaboration between engineers, product owners,
+  and other stakeholders, to ensure the specified behaviors make sense from 
+  a user perspective.
+
+It can be said that BDD is more specific than TDD. Changes to the code base,
+ such as changing the design of the code, will not occur unless there is a 
+ relevant change in the product. Since those changes are feature-related, 
+ the unit of tests is called a “feature.” Test cases are related to whether
+  or not the feature works, rather than if the individual functions or classes you are writing to develop
+ features work. Altogether, the tests are about how the product behaves — not the nitty-gritty technical details.
+
+
+
+      4 steps utill the test are passed
+    Make code changes
+    Make a pull request
+    The code change has tests run against it (unit, integration, sometimes e2e)
+    If there are any failures then the dev will work on fixes in their local development environment.
+    Repeat steps 1-4 until all tests pass.
+    The pull request is allowed to be merged.
+    mocha test
+  "name": "learn-mocha-learn-mocha-install-mocha-ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
+
+
+    -->
     <script> window.prompt('Hello World'); </script>
   </body>
 </html>
